@@ -11,7 +11,7 @@ export default function DashboardPage() {
   const [loading, setLoading] = useState(true);
   const [email, setEmail] = useState("");   
 
-  const URL = "http://localhost:3000/api/db/session/";
+  const URL = "http://telivy-backend.azurewebsites.net/db/session/";
 
 
   let name = "";
@@ -112,3 +112,4 @@ export default function DashboardPage() {
     </div>
   );
 }
+
